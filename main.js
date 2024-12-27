@@ -4,10 +4,10 @@ const myImage = document.querySelector("img");
 
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "image/ying.jpeg") {
-    myImage.setAttribute("src", "image/claude.webp");
+  if (mySrc === "ying.jpeg") {
+    myImage.setAttribute("src", "claude.webp");
   } else {
-    myImage.setAttribute("src", "image/ying.jpeg");
+    myImage.setAttribute("src", "ying.jpeg");
   }
 });
 
